@@ -20,7 +20,7 @@ int main()
   cout << "Write pseudonym:" <<endl;  
   cin >> pseudonym;  
   cout << "Output:" <<endl;  
-  cout << changeVowelToZ(fullName(reverseString(name), reverseString(pseudonym), reverseString(surname))) <<endl;    
+  cout << changeVowelToZ(fullName(reverseString(name), reverseString(surname), reverseString(pseudonym))) <<endl;    
   
   return 0;  
 }  
