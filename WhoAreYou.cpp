@@ -1,7 +1,7 @@
 /**  
 * Name: WhoAreYou.cpp  
 * author: Agata Szulc  
-* version 1.0 5/03/2017  
+* version 1.1 6/03/2017  
 */  
  
 #include <string>  
@@ -17,7 +17,7 @@ string addingQuotes(string s)
 string fullName(string s1, string s2, string s3)  
 {  
   string fullname;  
-  s2 = addingQuotes(s2);  
+  s3 = addingQuotes(s3);  
   fullname = s1+" "+s2+" "+s3;  
   return fullname;  
 }  
