@@ -1,7 +1,7 @@
 /**  
 * Name: main.cpp 
 * author: Agata Szulc  
-* version 1.0 5/03/2017  
+* version 2.0 6/03/2017  
 */  
  
 #include <iostream>  
@@ -20,7 +20,7 @@ int main()
   cout << "Write pseudonym:" <<endl;  
   cin >> pseudonym;  
   cout << "Output:" <<endl;  
-  cout << fullName(name, pseudonym, surname) <<endl;  
+  cout << changeVowelToZ(fullName(name, pseudonym, surname)) <<endl;    
   
   return 0;  
 }  
