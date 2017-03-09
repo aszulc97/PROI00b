@@ -1,7 +1,7 @@
 /**  
 * Name: WhoAreYou.cpp  
 * author: Agata Szulc  
-* version 1.1 6/03/2017  
+* version 3.0 6/03/2017  
 */  
  
 #include <string>  
@@ -21,3 +21,9 @@ string fullName(string s1, string s2, string s3)
   fullname = s1+" "+s2+" "+s3;  
   return fullname;  
 }  
+
+string reverseString(string s) 
+{ 
+  reverse(s.begin(),s.end()); 
+  return s; 
+} 
