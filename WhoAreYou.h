@@ -14,5 +14,6 @@
 std::string addingQuotes (std::string s);  
 std::string fullName(std::string s1, std::string s2, std::string s3);  
 std::string reverseString(std::string s); 
+std::string changeVowelToZ (std:: string s);  
   
 #endif //WHOAREYOU_H_  
